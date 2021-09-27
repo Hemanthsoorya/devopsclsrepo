@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "......Display memory Info ......"
-echo "......Display root file size ...."
-free -m
+echo "......Display root file system size"
+df -h
 
